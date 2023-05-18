@@ -2,6 +2,8 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 const port = 3000; /// http://127.0.0.1:3000/ksldjflkjsd
+
+// make sure you have nodeJS installed from https://nodejs.org/
 //cd server
 //npm install
 //node main.js
