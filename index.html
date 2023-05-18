@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Everything Fetch</title>
+
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src *;
+        script-src 'self' 'unsafe-inline';
+        connect-src *;
+        img-src 'self' blob: data: http: https: ;
+      "
+    />
+
+    <link rel="stylesheet" href="./main.css" />
+    <script src="./main.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Ten Steps to Mastering the Fetch API</h1>
+    </header>
+    <main>
+      <!-- content from fetch loads in list here -->
+      <ul id="list">
+        <!-- <li data-uid="790c6b27-5424-4d79-8e7d-793b8dd682bc">
+          <p>first name</p>
+          <p>last name</p>
+        </li> -->
+      </ul>
+      <p>
+        <img id="pic" src="./1031-536x354.jpg" alt="loaded by fetch" width="300" height="200" />
+        <button id="abort">ABORT</button>
+      </p>
+      <form name="myform" id="myform" action="https://www.google.ca/">
+        <p>
+          <label for="jsonfile">JSON:</label>
+          <input type="file" id="jsonfile" name="jsonfile" accept="application/json" />
+        </p>
+        <p>
+          <label for="imgfile">Image:</label>
+          <input type="file" id="imgfile" name="imgfile" accept="image/*" />
+        </p>
+        <p>
+          <button id="btnSend">Send</button>
+        </p>
+      </form>
+      <!-- <canvas id="canvas" width="600" height="400"></canvas> -->
+    </main>
+  </body>
+</html>

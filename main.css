@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: 300;
+}
+html {
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color-scheme: dark light;
+}
+header,
+main {
+  padding: 1rem 4rem;
+}
+h1 {
+  font-size: 3rem;
+  color: orangered;
+}
+p,
+input,
+label,
+li {
+  font-size: 1rem;
+  font-family: inherit;
+  margin-block: 1rem;
+}
+img {
+  border: 1px solid white;
+}
